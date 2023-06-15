@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px) and (min-width:401px) {
+    * {
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+    #header{
+        height: 185px;
+    }
+    .menu ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .linha, .somosmuchos {
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', sans-serif;
+        font-size: 15px;
+        color:#000000;
+        margin: 0;
+        margin-left: 3px;
+    }
+     header ul li {
+        margin: 0 10px;
+       
+    }
+    .btn-contato button{
+        width: 90px;
+        height: 30px;
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: -10px;
+        
+ }
+    .logococa{
+        width: 350px;
+        margin-top: 55px;
+        margin-right: -15px;
+    }
+    .imagem1{
+        margin-top: 185px;
+        width: 100vw; 
+    }
+    .imagem3{
+        margin-top: -2px;
+    }
+    .coca{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .apoiadores {
+        padding: 20px;
+   }
+   .meio{
+       width:100vw ;
+        height: 450px;
+   }
+   .footerredes3{
+    width: 30px;
+    margin-left: 20px;
+    margin: -10px;
+    margin-top: -50px;
+}
+.rodape{
+    flex-direction: column-reverse;
+ }
+ .footerinicial{
+     justify-content: space-between;
+ }
+ .pin{
+     display: flex;
+     justify-content: space-between;
+     margin: auto;
+     width: 200px;
+ }
+ .footerpin{
+     font-size: 15px;
+     padding: 20px;
+     margin-left: -50px;
+ }
+ #link{
+    margin: 10px;
+}
+}

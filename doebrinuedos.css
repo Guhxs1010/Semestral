@@ -1,0 +1,216 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    background-color: #DE0B1C;
+    width: 100vw;
+    box-sizing: border-box;
+} 
+img{
+    width: 100%;
+    height: auto;
+}
+.logococa{
+    width: 300px;
+}
+.Comeco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ 
+ }
+.doar{
+    width: 98.9vw;
+}
+.doartitulo{
+    margin-top: 20px;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Boba';
+    font-size: 30px;
+    margin-left: 60px;
+    text-align: center;
+}
+.doarsub{
+    margin: 20px;
+    margin-top: 1px;
+    color: #F5AD3E;
+    font-family: 'Lasting';
+    font-size: 28px;
+    margin-left: 80px;
+    text-align: center;
+}
+.crianca1{
+    width: 100px;
+    display: flex;
+}
+.slider{
+    margin-left: 340px;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+.slide img{
+    width: 800px;
+}
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background-color: #000000;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+.navigation-auto div{
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.navigation-auto{
+    position:absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background-color: #ff0000;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #ff0000;
+  }
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #ff0000;
+  }
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #ff0000;
+  }
+  .videoinicial{
+    width: 98.9vw;
+  }
+  .quase{
+    background-color:#555;
+    margin-top: -10px;
+    padding-top: 30px;
+    width: 100vw;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:ital,wght@1,800&display=swap');
+
+  .dtitulo{
+    display: flex;
+  }
+  .crianca1{
+    width: 600px;
+    margin-left: 100px;
+    height: 400px;
+  }
+  .dtitulo1{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 160px;
+  }
+  .crianca2{
+    
+    width: 600px;
+    height: 400px;
+    margin-left: 70px;
+  }
+  .conteudo1{
+    margin-top: 80px;
+  }
+  .conteudo{
+    margin-top: 60px;
+  }
+  .contagemtitulo2{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Boba';
+    font-size: 30px;
+    color: #fff;
+    padding: 30px;
+  }
+  .crianca3{
+    width: 600px;
+    height: 400px;
+    margin-right: 140px;
+  }
+  .conteudo3{
+    margin-top: 80px;
+    margin-right: 80px;
+  }
+  .brincar8{
+    width: 100vw;
+  }
+  .btn-doe button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #DE0B1C;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 2s;
+    font-family: 'OpenCoca';
+    margin-left: 705px;
+    margin-bottom: 20px;
+}
+.btndoar{
+  display: block;
+  justify-content: center;
+}
+.qrcode{
+    width: 190px;
+   margin-left: 670px;
+  padding: 20px;
+}
+
+
+
